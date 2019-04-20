@@ -24,7 +24,7 @@
         setcookie('username', $_POST['username'], time()+3600*24*7);
         header("Location: action.php");
     }
-
+    
 
 	// jika action.php ini diload dari tombol submit (dari halaman action.php sendiri)
 	if (isset($_POST['submit'])){
