@@ -1,6 +1,6 @@
 <?php
-// set the expiration date to one hour ago
-setcookie("user", $_COOKIE["user"], time() - (86400 * 30));
+// hapus cookie dalam 1 jam
+setcookie("user", $_COOKIE["username"], time() - (86400 * 30));
 setcookie("score", $_COOKIE["score"], time() - (86400 * 30));
 setcookie("lasttime", $_COOKIE["lasttime"], time() - (86400 * 30));
 setcookie("photo", $_COOKIE["photo"], time() - (86400 * 30));
